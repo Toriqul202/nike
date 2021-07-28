@@ -2,8 +2,21 @@
 body{
     margin:0;
     padding:0;
-    /* font-family: 'Bebas Neue', cursive; */
+     font-family: 'Bebas Neue', cursive; 
     /* font-family: 'Roboto', sans-serif;  */
+}
+button{
+    font-family: 'Roboto', sans-serif; 
+    color: #fff;
+}
+.card img{
+    background-color:rgba(128, 128, 128, 0.789) ;
+    border-radius: 40px;
+   
+}
+#card-title{
+    font-size: 40px;
+    font-weight: 700;
 }
 .img{
     width:40%;
@@ -15,6 +28,7 @@ body{
     line-height: 80px;
 
 }
+
 #meta-title{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -30,6 +44,10 @@ body{
         line-height: 80px;
     
     }
+    #titles{
+        text-align: center;
+        margin: 10px 0px;
+    }
    
     #meta-title{
         font-family: 'Roboto', sans-serif;
@@ -42,5 +60,10 @@ body{
     }
     #image{
         order:2
+    }
+    .card img{
+        
+        border-radius: 0px;
+       
     }
 }
