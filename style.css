@@ -70,7 +70,7 @@ button{
         padding:0px
     }
     #image img{
-        width:90%;
+        max-width:90%;
     }
     .card img{
         
@@ -80,7 +80,5 @@ button{
     #dd{
         padding: 16px 0px;
     }
-    #check{
-      
-    }
+   
 }
