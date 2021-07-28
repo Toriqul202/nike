@@ -65,7 +65,8 @@ button{
         order:1;
     }
     #image{
-        order:2
+        order:2;
+        padding:0px
     }
     .card img{
         
